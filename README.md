@@ -1,52 +1,73 @@
+<div align="center">
+
 # 🧮 Math Game
 
+### A simple C++ console-based game for practicing arithmetic questions
+
+<p>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Console_App-222222?style=for-the-badge&logo=windowsterminal&logoColor=white" />
+  <img src="https://img.shields.io/badge/Problem_Solving-FF9800?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/Clean_Code-2E7D32?style=for-the-badge&logo=checkmarx&logoColor=white" />
+</p>
+
+</div>
+
+---
+
 ## 📖 About the Project
-A simple and interactive **C++ console-based math game** where the player solves randomly generated math questions.
 
-The game challenges the player with different **arithmetic operations** and difficulty levels.  
-It keeps track of correct and wrong answers and gives feedback after each round.
+**Math Game** is a simple and interactive **C++ console application** where the player solves randomly generated math questions.
 
-This project is part of the **AbouHadhood Platform** training track with Dr. Mohamed Abou Hadhoud and is designed to practice:
-- Functions & clean code structure
-- Enums and structs
-- Random number generation
-- Loops and conditions
-- Single Responsibility Principle (SRP)
+The game allows the player to choose the number of questions, difficulty level, and arithmetic operation type.  
+It tracks correct and wrong answers and gives feedback during the game.
 
-👉 [Watch Project Video](https://amr-haushaby.de/projects-videos-file/videospage#project-2-title)
-
+This project was built to practice basic programming concepts, clean code structure, and problem-solving skills.
 
 ---
 
-## 🎯 Game Features
-- Multiple math operations (Add, Subtract, Multiply, Divide)
-- Random questions every round
-- Score tracking
-- Clear round-based flow
-- Console-based user interaction
+## 🎯 Features
+
+- ➕ Addition questions
+- ➖ Subtraction questions
+- ✖️ Multiplication questions
+- ➗ Division questions
+- 🎲 Random question generation
+- 📊 Score tracking
+- ✅ Correct / wrong answer feedback
+- 🔁 Round-based game flow
+- 🖥️ Console-based user interaction
 
 ---
 
-## 🧩 Example
+## 🛠️ Technologies Used
 
-Choose number of questions: <kbd>3</kbd>  
-Choose difficulty level: <kbd>2</kbd>  
-Choose operation type: <kbd>+</kbd>
-
-Question [1/3]:  
-5 + 7 = ?  
-Your Answer: <kbd>12</kbd> ✅
-
-Question [2/3]:  
-9 + 4 = ?  
-Your Answer: <kbd>10</kbd> ❌
+| Technology | Description |
+|-----------|-------------|
+| **C++** | Main programming language |
+| **Console Application** | User interaction through terminal |
+| **Functions** | Code organization and reusability |
+| **Enums** | Operation types and difficulty levels |
+| **Structs** | Grouping related game data |
+| **Random Numbers** | Generating different questions |
+| **Loops & Conditions** | Game flow and answer checking |
 
 ---
 
-## 📚 What I Learned
-- Structuring a small program using **SRP**
-- Passing data by reference
-- Designing reusable functions
-- Improving readability and maintainability in C++
+## 🧩 Example Gameplay
 
----
+```text
+Choose number of questions: 3
+Choose difficulty level: 2
+Choose operation type: +
+
+Question [1/3]:
+5 + 7 = ?
+Your Answer: 12
+Correct Answer ✅
+
+Question [2/3]:
+9 + 4 = ?
+Your Answer: 10
+Wrong Answer ❌
+Correct Answer: 13
