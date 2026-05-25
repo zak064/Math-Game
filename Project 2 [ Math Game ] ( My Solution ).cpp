@@ -1,5 +1,3 @@
-﻿// Project 2 [ Math Game ] (My Solution).cpp
-
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
